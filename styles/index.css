@@ -1,0 +1,275 @@
+body{
+    font-family: poppins;
+    margin-left: 144px;
+    width: 1400px;
+    height: 78px;
+}
+
+.heading{
+    margin-top: 20px;
+    display: inline-flex;
+}
+
+.logo{
+    margin-top: 22px;
+    width: 185px;
+    height: 32px;
+}
+
+.menu{
+    margin-left: 321px;
+    list-style-type: none;
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+    color: #2F281E;
+}
+
+ /* What can i do to avoid this margin left here?? */
+
+.menu>li{
+    font-family: poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 28px;
+    margin-left: 12px;
+    /* identical to box height, or 200% */
+    color: #2F281E;
+    text-decoration: none;
+}
+
+
+.signin-button{
+    width: 102px;
+    height: 46px;
+    margin-left: 29px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #173A56;
+    background-color: transparent;
+    border: 1px solid #BCD0E5;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.signin-button:hover {
+    text-decoration: none;
+    background-color:black;
+    border-color: white;
+    color:white;
+  }
+
+.signup-button{
+    width: 102px;
+    height: 46px;
+    margin-left: 14px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    background: #FF9900;
+    border-radius: 4px;
+    border: 1px solid #FF9900;
+}
+
+.signup-button:hover {
+    text-decoration: none;
+    background-color:black;
+    border-color: white;
+    color:white;
+  }
+
+.heading-content{
+    display: inline-flex;
+}
+
+.getstarted-button{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+    background-color: #FF9900;
+    border: 0px;
+    width: 175px;
+    height: 53px;
+}
+
+.getstarted-button:hover {
+    text-decoration: none;
+    background-color:black;
+    border-color: white;
+    color:white;
+  }
+
+.watchthevideo-button{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FF9900;
+    background-color: #ffffff00;
+    border: 0px;
+    width: 175px;
+    height: 53px;
+}
+
+.watchthevideo-button:hover {
+    text-decoration: none;
+    background-color:black;
+    border-color: white;
+    color:white;
+  }
+
+
+.main-header-top {
+    margin-top: 117px;
+    text-align: center;
+}
+
+.main-header{
+    margin-top: 3px;
+}
+
+.features{
+    display:inline-flex;
+}
+
+.features-two{
+    margin-left: 88px;
+    
+}
+
+.features-three{
+    margin-left: 65px;
+    
+}
+
+.features-four{
+    margin-left: 68px;
+    
+}
+
+.signupnow-button-container{
+    text-align: center;
+    display:block;
+}
+
+.signupnow-button{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+    background-color: #FF9900;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border: 0px;
+    width: 175px;
+    height: 53px;
+}
+
+.signupnow-button:hover {
+    text-decoration: none;
+    background-color:black;
+    border-color: white;
+    color:white;
+  }
+
+.design-professionals {
+    display: inline-flex;
+    margin-top: 113px;
+
+}
+
+.design-professionals-content{
+    margin-left: 145px;
+    
+}
+
+.design-professionals-img{
+    margin-left: 104px;
+}
+
+.product-managers{
+    display: inline-flex;
+    margin-top: 101px;
+}
+
+.product-managers-content{
+    margin-left: 100px;
+}
+
+.marketers{
+    display: inline-flex;
+    margin-top: 104px;
+}
+
+.marketers-img{
+    margin-left: 80px;
+
+}
+
+.footer{
+    display: inline-flex;
+    margin-top: 102px;
+}
+
+.menu-footer{
+    text-decoration: none;
+    list-style-type: none;
+    columns: 2;
+    column-gap: 176px;
+    margin-left: 140px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 35px;
+}
+
+a {text-decoration: none;
+    color: #2F281E;
+}
+
+a:hover{
+    background-color: rgb(204, 204, 204);
+    border-color: rgb(255, 238, 0);
+    color: black;
+
+}
+.phone-number-form {
+    margin-left: 82px;
+}
+
+.signupnow-button-second{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+    background-color: #FF9900;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border: 0px;
+    width: 132px;
+    height: 39px;
+    margin-top: 21px;
+}
+
+.signupnow-button-second:hover {
+    text-decoration: none;
+    background-color: white;
+    border-color: white;
+    color: black;
+  }
+
+  .number-box:hover {
+    background-color: rgb(204, 204, 204);
+    border-color: rgb(255, 238, 0);
+    color: black;
+  }
